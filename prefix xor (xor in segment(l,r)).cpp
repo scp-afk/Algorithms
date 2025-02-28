@@ -13,6 +13,10 @@ int main() {
 	for(int i = 1;i < n;i++){
 	    prefx[i] = prefx[i - 1] ^ a[i];
 	}
+	for(int i = l;i <= r;i++){
+	    cout << prefx[i] << " ";
+	}
+	cout << "\n";
 	int ans = prefx[r] ^ prefx[l - 1];
 	cout << ans;
 }
