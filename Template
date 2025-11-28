@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+#pragma GCC optimize("O3,unroll-loops")
+#pragma GCC target("avx,avx2,bmi,bmi2,popcnt,lzcnt")
+#define ld long double
+#define all(v) v.begin(),v.end()
+#define rall(x) x.rbegin(), x.rend()
+#define nl "\n"
+using namespace std;
+
+void solve(){
+    //solution here :)
+    
+}
+
+
+int main(){
+    int t; cin >> t;
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    while(t--){
+        solve();
+        cout << nl;
+    }
+    
+}
+/*__  __       _                                         _           _ _ _     
+ |  \/  |     | |                                       | |         | (_) |    
+ | \  / |_   _| |__   __ _ _ __ ___  _ __ ___   __ _  __| |___  ___ | |_| |__  
+ | |\/| | | | | '_ \ / _` | '_ ` _ \| '_ ` _ \ / _` |/ _` / __|/ _ \| | | '_ \ 
+ | |  | | |_| | | | | (_| | | | | | | | | | | | (_| | (_| \__ \ (_) | | | | | |
+ |_|  |_|\__,_|_| |_|\__,_|_| |_| |_|_| |_| |_|\__,_|\__,_|___/\___/|_|_|_| |_|
+                                                                               
+*/
