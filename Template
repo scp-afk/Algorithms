@@ -2,13 +2,16 @@
 #pragma GCC optimize("O3,unroll-loops")
 #pragma GCC target("avx,avx2,bmi,bmi2,popcnt,lzcnt")
 #define ld long double
+#define vi vector<int>
 #define all(v) v.begin(),v.end()
 #define rall(x) x.rbegin(), x.rend()
 #define nl "\n"
+#define ll long long
 using namespace std;
 
 void solve(){
     //solution here :)
+    
     
 }
 
