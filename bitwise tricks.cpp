@@ -30,3 +30,16 @@ int set_kth(int x,int k){
 int unset_kth(int x,int k){
   return x & ~(1 << k);
 }
+//divide an integer by kth power of two (x / 2 ** k)
+int divide(int x,int k){
+  return x >> k;
+}
+//multiply an integer by kth power of two (x * 2 ** k)
+int multiply(int x,int k){
+  return x << k;
+}
+
+//to find the x mod kth power of 2 (x mod 2**k)
+int mod(int x,int k){
+  return x & ((1 << k) - 1);
+}
